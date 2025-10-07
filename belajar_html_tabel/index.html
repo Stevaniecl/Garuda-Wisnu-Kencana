@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas Tabel Web - Pemrograman Web 1</title>
+  
+  <style>
+    
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    table {
+      width: 100%;
+      height: 100vh;
+      border-collapse: collapse;
+      border: 2px solid black;
+      background-color: white;
+    }
+
+    th, td {
+      border: 2px solid black;
+      padding: 10px;
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      background-color: #c0edf5;
+      height: 100px;
+    }
+
+    /* Menu di kiri */
+    .menu {
+      width: 20%;
+      background-color: #f7f7f7;
+      vertical-align: top;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .menu a {
+      display: block;
+      padding: 10px 0;
+      text-decoration: none;
+      color: black;
+      font-size: 16px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .menu a:hover {
+      background-color: #3498db;
+      color: white;
+    }
+
+    /* Konten utama */
+    .content {
+      text-align: left;
+      padding: 20px;
+      font-size: 18px;
+      vertical-align: top;
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      background-color: #c0edf5;
+      font-weight: bold;
+      font-size: 18px;
+      height: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <!-- HEADER -->
+    <tr>
+      <th colspan="2" class="header">TAMAN BUDAYA GARUDA WISNU KENCANA</th>
+    </tr>
+
+    <!-- MENU + KONTEN -->
+    <tr>
+      <td class="menu">
+        MENU <br><br>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </td>
+      <td class="content">
+        <h2>Selamat Datang!</h2>
+        <p>
+          Selamat datang di <b>Taman Budaya Garuda Wisnu Kencana (GWK)</b> — ikon pariwisata 
+          Bali yang memadukan keindahan seni, budaya, dan panorama alam. Di sini, Anda 
+          dapat menikmati megahnya patung Garuda Wisnu Kencana, salah satu patung tertinggi 
+          di dunia, serta berbagai pertunjukan budaya khas Bali yang memukau. GWK hadir sebagai
+          destinasi wisata yang tidak hanya indah secara visual, tetapi juga kaya akan nilai sejarah 
+          dan spiritualitas.
+        </p>
+      </td>
+    </tr>
+
+    <!-- FOOTER -->
+    <tr>
+      <td colspan="2" class="footer">
+        &copy; 2025 | Stevanie Claudya Lauren - Teknik Informatika Semester 5
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
